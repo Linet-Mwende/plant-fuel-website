@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: o;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    max-width: 1500px;
+    vertical-align: top;
+}
+
+.container {
+    display: flex;
+    width: 300;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: rgb(1, 64, 34);
+    gap: 50px;
+    vertical-align: top;
+}
+
+.left-page, .right-page {
+    flex: 1;
+    padding: 20px;
+    width: 400px;
+    
+    align-items: flex-start;
+}
+
+h1, h2 {
+    color: rgb(1, 64, 34);
+    width: 200;
+    
+}
+
+p, li {
+    color: rgb(1, 64, 34);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+button {
+    background-color: #2e7d32;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button.learn-more {
+    background-color: #6d4c41;
+}
+
+button.join {
+    background-color: #2e7d32;
+}
+.snacks img {
+    width: 450px;
+    height:auto
+}
+
+.badges {
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+    display: grid;
+    
+}
+
+.badges img {
+    width: 400px;
+    height: auto;
+}
+.left-page {
+    display: flex;
+    flex-direction: column; /* Stacks content vertically */
+    justify-content: space-between; /* Pushes image to bottom */
+    height: 20px;
+    width: 400px;
+    margin-right: 40px;
+}
+.right-page {
+    display: flex;
+    flex-direction: column; /* Stacks content vertically */
+    justify-content: space-between; /* Pushes image to bottom */
+    height: 20px;
+    width: 400px;
+    padding-left: 180px;
+
+}
+.faq-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+}
+
+.faq-container h2 {
+    text-align: center;
+    color: rgb(1, 64, 34);
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.faq-item h3 {
+    color: rgb(1, 64, 34);
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.faq-item p {
+    color: rgb(1, 64, 34);
+    font-size: 16px;
+}
+.early-access {color: olive;}
+.early-access h4 {
+    color: rgb(1, 64, 34);
+    background-color:olive;
+    flex-direction: column;
+
+}
+
+.early-access p {
+    color: rgb(0, 0, 0);
+}
+.early-access img {
+    width: 400px;
+    height: auto;
+}
+
+.Join {
+    color: white;
+    background-color: black;
+}
+
+.Learn-more {
+    color: black;
+    background-color: olive;
+}
+
+.image img {
+    border-radius: 100%;
+    height: 200px;
+}
+.logo button {
+    background-image:url("images/plant fuel pictures/image.png");
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+        justify-content: space-between}
+  .buttons button{
+    background-color: transparent;
+    color: rgb(1, 64, 34);
+    border: none;
+}
